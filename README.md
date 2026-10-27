@@ -77,15 +77,9 @@ data/LC25000/
 For the canonical variant:
 
 ```python
-# In 01_mopso_pipeline.ipynb Section 1:
 SEED = 42
 DATASET = 'LungHist700'
 ```
-
-Run all cells of `01_mopso_pipeline.ipynb`, then all cells of `02_baselines_ablations.ipynb` with the same `SEED` and `DATASET`.
-
-For the scalar-sum variant: same procedure with `01_mopso_pipeline_optionB.ipynb` and `02_baselines_ablations_optionB.ipynb`.
-
 ### Multi-seed statistics
 
 Rerun with `SEED` in `{42, 123, 456, 789, 2026}`. Each seed writes to a separate folder. 
